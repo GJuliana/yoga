@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dark_bg{
+	width: 60%;
+    height: 759px;
+    background: #282B34;
+    position: absolute;
+    z-index: -1;
+}
+.yoga{
+	width: 1040px;
+	height: 758px;
+	margin: 0 auto;
+	background-color: transparent;
+	position: relative;
+	box-sizing: border-box;
+    padding: 50px 0;
+}
+.yoga_classes, img{
+	width: 450px;
+	position: absolute;
+	box-shadow: 22px 16px 0px lightgray;
+}
+.yoga_classes{
+	height: 350px;
+	right: 0;
+	background-color: #FD8C00;
+	color: #fffffff3;
+	box-sizing: border-box;
+	padding: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	box-shadow: 20px 19px 25px lightgray;
+}
+.yoga_classes p{
+	font-size: 14px;
+    font-weight: 100;
+    margin: 24px 0;
+    line-height: 20px;
+}
+.yoga_classes a{
+	font-size: 14px;
+    font-weight: 100;
+	text-decoration: none;
+	color: #FFF;
+}
+.read_more{
+	display: block;
+    border: 2px solid #FFF;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+	margin-top: 24px;
+	transition: 0.5;
+}
+.read_more:hover{
+	color: #000;
+	background-color: #FFF;
+}
+.yoga_img2{
+    top: 350px;
+    left: 336px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	body {
+	  background-color: #282B34;
+	}
+}
